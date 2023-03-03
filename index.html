@@ -34,19 +34,32 @@
             </div>
 
         </div>
-        <div id="rightContainer" class="bg-violet-500 w-10/12 grid">
+        <div id="rightContainer" class="bg-slate-700 w-10/12 grid">
             <div id="topRightContainer" class="bg-slate-400 col-span-2 gap-2">
-                <div><img src="./images/magnify.svg" class="h-6 ml-auto mr-4 hover:cursor-pointer"></div>
-                <div><input class="w-full rounded-xl p-1 focus:outline-none focus:outline-slate-700"></div>
-                <div><img src="./images/bell-ring.svg" class="h-6 hover:cursor-pointer ml-auto"></div>
-                <div class="flex items-center gap-2 border-2 bg-slate-700 border-slate-500 rounded-3xl p-2 justify-center shadow-2xl">
-                    <div class="hover:cursor-default select-none h-fit text-slate-200">Miguel Example</div>
+                <div class="flex flex-row items-center w-full border-2 border-slate-500 rounded-xl p-2 bg-slate-700">
+                    <div><img src="./images/magnify.svg" class="h-6 ml-auto mr-4 hover:cursor-pointer"></div>
+                    <div class="w-full pr-4"><input class="w-full rounded-xl p-1 pl-2 focus:outline-none focus:outline-slate-700 bg-slate-500 text-slate-200"></div>
+                </div>
+                <div><img src="./images/bell-ring.svg" class="h-6 hover:cursor-pointer ml-auto hover:scale-110 hover:rotate-3"></div>
+                <div class="flex items-center gap-2 border-2 bg-slate-700 border-slate-500 rounded-3xl p-2 justify-center shadow-lg">
+                    <div class="hover:cursor-default select-none text-slate-200">Miguel Example</div>
                     <div><img src="./images/monkeyAvatar.svg" class="border-2 rounded-full h-12 bg-gray-400 hover:cursor-pointer"></div>
                 </div>
-                
-                
             </div>
-            <div class="bg-red-700 col-span-2"></div>
+            <div class="bg-slate-400 col-span-2 flex border-2 border-slate-500 rounded-full">
+                <div class="grid grid-cols-1 items-center p-4 grid-flow-col gap-3 border-2 border-slate-700 rounded-full bg-slate-700">
+                    <div><img src="./images/monkeyAvatar.svg" class="border-2 rounded-full h-14 bg-gray-400 hover:cursor-pointer"></div>
+                    <div class="grid grid-rows-2 align-middle">
+                        <div class="text-sm text-slate-200">Hi there,</div>
+                        <div class="text-slate-200">Miguel Example <span class="font-bold">(@migexample)</span></div>
+                    </div>
+                </div>
+                <div class="grid columns-3 grid-flow-col ml-auto pr-14 gap-8 items-center">
+                    <button class="h-fit bg-gray-700 border-2 border-slate-500 rounded-full p-2 pl-4 pr-4 shadow-2xl text-slate-200 hover:scale-105 hover:rotate-1">New</button>
+                    <button class="h-fit bg-gray-700 border-2 border-slate-500 rounded-full p-2 pl-4 pr-4 shadow-2xl text-slate-200 hover:scale-105 hover:rotate-1">Upload</button>
+                    <button class="h-fit bg-gray-700 border-2 border-slate-500 rounded-full p-2 pl-4 pr-4 shadow-2xl text-slate-200 hover:scale-105 hover:rotate-1">Share</button>
+                </div>
+            </div>
             <div class="bg-yellow-500"></div>
             <div class="bg-blue-500"></div>
         </div>
