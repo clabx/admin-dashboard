@@ -13,7 +13,7 @@
         <div id="left" class="bg-slate-700 w-2/12 overflow-hidden">
             <div id="logo" class="flex items-center p-6 shadow-2xl flex-none">
                 <img src="./images/monitor-dashboard.svg"  alt="dashboard logo" class="w-12 mr-2 hover:cursor-pointer">
-                <p class="h-fit text-slate-200 text-xl hover:cursor-pointer select-none">Dashboard</p>
+                <p class="h-fit text-xl hover:cursor-pointer select-none">Dashboard</p>
             </div>
 
             <div class="m-6 mt-16 flex gap-8 flex-col text-lg">
@@ -34,15 +34,15 @@
             </div>
 
         </div>
-        <div id="rightContainer" class="bg-slate-700 w-10/12 grid">
-            <div id="topRightContainer" class="bg-slate-400 col-span-2 gap-2">
+        <div id="rightContainer" class="bg-slate-700 w-10/12 grid shadow-2xl">
+            <div id="topRightContainer" class="bg-slate-400 col-span-2 gap-2 h-24 rounded-xl">
                 <div class="flex flex-row items-center w-full border-2 border-slate-500 rounded-xl p-2 bg-slate-700">
                     <div><img src="./images/magnify.svg" class="h-6 ml-auto mr-4 hover:cursor-pointer"></div>
-                    <div class="w-full pr-4"><input class="w-full rounded-xl p-1 pl-2 focus:outline-none focus:outline-slate-700 bg-slate-500 text-slate-200"></div>
+                    <div class="w-full pr-4"><input class="w-full rounded-xl p-1 pl-2 focus:outline-none focus:outline-slate-700 bg-slate-500"></div>
                 </div>
                 <div><img src="./images/bell-ring.svg" class="h-6 hover:cursor-pointer ml-auto hover:scale-110 hover:rotate-3"></div>
                 <div class="flex items-center gap-2 border-2 bg-slate-700 border-slate-500 rounded-3xl p-2 justify-center shadow-lg">
-                    <div class="hover:cursor-default select-none text-slate-200">Miguel Example</div>
+                    <div class="hover:cursor-default select-none">Miguel Example</div>
                     <div><img src="./images/monkeyAvatar.svg" class="border-2 rounded-full h-12 bg-gray-400 hover:cursor-pointer"></div>
                 </div>
             </div>
@@ -50,17 +50,114 @@
                 <div class="grid grid-cols-1 items-center p-4 grid-flow-col gap-3 border-2 border-slate-700 rounded-full bg-slate-700">
                     <div><img src="./images/monkeyAvatar.svg" class="border-2 rounded-full h-14 bg-gray-400 hover:cursor-pointer"></div>
                     <div class="grid grid-rows-2 align-middle">
-                        <div class="text-sm text-slate-200">Hi there,</div>
-                        <div class="text-slate-200">Miguel Example <span class="font-bold">(@migexample)</span></div>
+                        <div class="text-sm">Hi there,</div>
+                        <div>Miguel Example <span class="font-bold">(@migexample)</span></div>
                     </div>
                 </div>
                 <div class="grid columns-3 grid-flow-col ml-auto pr-14 gap-8 items-center">
-                    <button class="h-fit bg-gray-700 border-2 border-slate-500 rounded-full p-2 pl-4 pr-4 shadow-2xl text-slate-200 hover:scale-105 hover:rotate-1">New</button>
-                    <button class="h-fit bg-gray-700 border-2 border-slate-500 rounded-full p-2 pl-4 pr-4 shadow-2xl text-slate-200 hover:scale-105 hover:rotate-1">Upload</button>
-                    <button class="h-fit bg-gray-700 border-2 border-slate-500 rounded-full p-2 pl-4 pr-4 shadow-2xl text-slate-200 hover:scale-105 hover:rotate-1">Share</button>
+                    <button class="h-fit bg-gray-700 border-2 border-slate-500 rounded-full p-2 pl-4 pr-4 shadow-2xl hover:scale-105 hover:rotate-1">Edit</button>
+                    <button class="h-fit bg-gray-700 border-2 border-slate-500 rounded-full p-2 pl-4 pr-4 shadow-2xl hover:scale-105 hover:rotate-1">Upload</button>
+                    <button class="h-fit bg-gray-700 border-2 border-slate-500 rounded-full p-2 pl-4 pr-4 shadow-2xl hover:scale-105 hover:rotate-1">Properties</button>
                 </div>
             </div>
-            <div class="bg-yellow-500"></div>
+            <div class="bg-slate-700 p-6 overflow-scroll">
+                <div class="border-2 border-slate-500 rounded-3xl p-4 bg-slate-500">
+                    <div class="m-2 font-bold">Current Projects</div>
+                    <div id="dash">
+                        <div id="card">
+                            <h1>Books tracker</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus maximus nulla, nec mollis magna congue at. Duis felis felis, gravida at augue at, malesuada convallis augue.</p>
+                            <div>
+                                <img src="./images/git.svg" alt="Git logo">
+                                <img src="./images/star.svg" alt="Star">
+                                <img src="./images/alpha-x-circle.svg" alt="Cross">
+                            </div>
+                        </div>
+                        <div id="card">
+                            <h1>Document viewer</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus maximus nulla, nec mollis magna congue at. Duis felis felis, gravida at augue at, malesuada convallis augue.</p>
+                            <div>
+                                <img src="./images/git.svg" alt="Git logo">
+                                <img src="./images/star.svg" alt="Star">
+                                <img src="./images/alpha-x-circle.svg" alt="Cross">
+                            </div>
+                        </div>
+                        <div id="card">
+                            <h1>Refrigerator OS</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus maximus nulla, nec mollis magna congue at. Duis felis felis, gravida at augue at, malesuada convallis augue.</p>
+                            <div>
+                                <img src="./images/git.svg" alt="Git logo">
+                                <img src="./images/star.svg" alt="Star">
+                                <img src="./images/alpha-x-circle.svg" alt="Cross">
+                            </div>
+                        </div>
+                        <div id="card">
+                            <h1>Chef's Recipes IA</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus maximus nulla, nec mollis magna congue at. Duis felis felis, gravida at augue at, malesuada convallis augue.</p>
+                            <div>
+                                <img src="./images/git.svg" alt="Git logo">
+                                <img src="./images/star.svg" alt="Star">
+                                <img src="./images/alpha-x-circle.svg" alt="Cross">
+                            </div>
+                        </div>
+                        <div id="card">
+                            <h1>Stars tracker</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus maximus nulla, nec mollis magna congue at. Duis felis felis, gravida at augue at, malesuada convallis augue.</p>
+                            <div>
+                                <img src="./images/git.svg" alt="Git logo">
+                                <img src="./images/star.svg" alt="Star">
+                                <img src="./images/alpha-x-circle.svg" alt="Cross">
+                            </div>
+                        </div>
+                        <div id="card">
+                            <h1>Stars destroyer</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus maximus nulla, nec mollis magna congue at. Duis felis felis, gravida at augue at, malesuada convallis augue.</p>
+                            <div>
+                                <img src="./images/git.svg" alt="Git logo">
+                                <img src="./images/star.svg" alt="Star">
+                                <img src="./images/alpha-x-circle.svg" alt="Cross">
+                            </div>
+                        </div>
+                        <div id="card">
+                            <h1>Robot's Guitar Player OS</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus maximus nulla, nec mollis magna congue at. Duis felis felis, gravida at augue at, malesuada convallis augue.</p>
+                            <div>
+                                <img src="./images/git.svg" alt="Git logo">
+                                <img src="./images/star.svg" alt="Star">
+                                <img src="./images/alpha-x-circle.svg" alt="Cross">
+                            </div>
+                        </div>
+                        <div id="card">
+                            <h1>Search Engine</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus maximus nulla, nec mollis magna congue at. Duis felis felis, gravida at augue at, malesuada convallis augue.</p>
+                            <div>
+                                <img src="./images/git.svg" alt="Git logo">
+                                <img src="./images/star.svg" alt="Star">
+                                <img src="./images/alpha-x-circle.svg" alt="Cross">
+                            </div>
+                        </div>
+                        <div id="card">
+                            <h1>Julian Calendar converter</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus maximus nulla, nec mollis magna congue at. Duis felis felis, gravida at augue at, malesuada convallis augue.</p>
+                            <div>
+                                <img src="./images/git.svg" alt="Git logo">
+                                <img src="./images/star.svg" alt="Star">
+                                <img src="./images/alpha-x-circle.svg" alt="Cross">
+                            </div>
+                        </div>
+                        <div id="card">
+                            <h1>Graphing 4D calculator</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed rhoncus maximus nulla, nec mollis magna congue at. Duis felis felis, gravida at augue at, malesuada convallis augue.</p>
+                            <div>
+                                <img src="./images/git.svg" alt="Git logo">
+                                <img src="./images/star.svg" alt="Star">
+                                <img src="./images/alpha-x-circle.svg" alt="Cross">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
             <div class="bg-blue-500"></div>
         </div>
     </div>
