@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Admin dashboard</title>
+</head>
+<body>
+
+    <div class="flex h-full">
+        <div id="left" class="bg-slate-700 w-2/12 overflow-hidden">
+            <div id="logo" class="flex items-center p-6 shadow-2xl flex-none">
+                <img src="./images/monitor-dashboard.svg"  alt="dashboard logo" class="w-12 mr-2 hover:cursor-pointer">
+                <p class="h-fit text-slate-200 text-xl hover:cursor-pointer select-none">Dashboard</p>
+            </div>
+
+            <div class="m-6 mt-16 flex gap-8 flex-col text-lg">
+                <ul>
+                    <li class="flex items-center"> <img src="./images/home.svg" class="h-10"><p class="h-fit">Home</p></li>
+                    <li class="flex items-center"> <img src="./images/console.svg" class="h-10"><p class="h-fit">Console</p></li>
+                    <li class="flex items-center"> <img src="./images/message.svg" class="h-10"><p class="h-fit">Messages</p></li>
+                    <li class="flex items-center"> <img src="./images/logs.svg" class="h-10"><p class="h-fit">Logs</p></li>
+                    <li class="flex items-center"> <img src="./images/files.svg" class="h-10"><p class="h-fit">Files</p></li>
+                    <li class="flex items-center"> <img src="./images/discover.svg" class="h-10"><p class="h-fit">Discover</p></li>
+                </ul>
+                
+                <ul class="flex flex-col">
+                    <li>Settings</li>
+                    <li>Docs</li>
+                    <li>Log Out</li>
+                </ul>
+            </div>
+
+        </div>
+        <div id="rightContainer" class="bg-violet-500 w-10/12 grid">
+            <div id="topRightContainer" class="bg-slate-400 col-span-2 gap-2">
+                <div><img src="./images/magnify.svg" class="h-6 ml-auto mr-4 hover:cursor-pointer"></div>
+                <div><input class="w-full rounded-xl p-1 focus:outline-none focus:outline-slate-700"></div>
+                <div><img src="./images/bell-ring.svg" class="h-6 hover:cursor-pointer ml-auto"></div>
+                <div class="flex items-center gap-2 border-2 bg-slate-700 border-slate-500 rounded-3xl p-2 justify-center shadow-2xl">
+                    <div class="hover:cursor-default select-none h-fit text-slate-200">Miguel Example</div>
+                    <div><img src="./images/monkeyAvatar.svg" class="border-2 rounded-full h-12 bg-gray-400 hover:cursor-pointer"></div>
+                </div>
+                
+                
+            </div>
+            <div class="bg-red-700 col-span-2"></div>
+            <div class="bg-yellow-500"></div>
+            <div class="bg-blue-500"></div>
+        </div>
+    </div>
+
+</body>
+</html>
