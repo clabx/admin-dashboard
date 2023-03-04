@@ -41,13 +41,13 @@
                     <div class="w-full pr-4"><input class="w-full rounded-xl p-1 pl-2 focus:outline-none focus:outline-slate-700 bg-slate-500"></div>
                 </div>
                 <div><img src="./images/bell-ring.svg" class="h-6 hover:cursor-pointer ml-auto hover:scale-110 hover:rotate-3"></div>
-                <div class="flex items-center gap-2 border-2 bg-slate-700 border-slate-600 rounded-3xl p-2 justify-center shadow-lg">
+                <div class="flex items-center gap-2 border-2 bg-slate-700 border-slate-600 rounded-3xl p-2 justify-center shadow-lg overflow-hidden">
                     <div class="hover:cursor-default select-none">Miguel Example</div>
-                    <div><img src="./images/monkeyAvatar.svg" class="border-2 rounded-full h-12 bg-gray-400 hover:cursor-pointer"></div>
+                    <div class="flex-none"><img src="./images/monkeyAvatar.svg" class="border-2 rounded-full h-12 bg-gray-400 hover:cursor-pointer"></div>
                 </div>
             </div>
-            <div class="bg-slate-500 col-span-2 flex border-2 border-slate-600 rounded-full">
-                <div class="grid grid-cols-1 items-center p-4 grid-flow-col gap-3 border-2 border-slate-700 rounded-full bg-slate-700">
+            <div class="bg-slate-500 col-span-2 flex border-2 border-slate-600 rounded-full h-24 overflow-x-hidden">
+                <div class="grid grid-cols-1 items-center p-4 grid-flow-col gap-3 border-2 border-slate-700 rounded-full bg-slate-700 flex-none">
                     <div><img src="./images/monkeyAvatar.svg" class="border-2 rounded-full h-14 bg-gray-400 hover:cursor-pointer"></div>
                     <div class="grid grid-rows-2 align-middle">
                         <div class="text-sm">Hi there,</div>
@@ -61,7 +61,7 @@
                 </div>
             </div>
             <div class="bg-slate-700 p-6 overflow-scroll">
-                <div class="border-2 border-slate-500 rounded-3xl p-4 bg-slate-500">
+                <div class="border-2 border-slate-500 rounded-3xl p-4 bg-slate-500 overflow-hidden">
                     <div class="m-2 font-bold">Current Projects</div>
                     <div id="dash">
                         <div id="card">
@@ -175,7 +175,7 @@
                 <div class="flex items-center flex-col border-2 rounded-xl border-slate-600 bg-slate-500 w-10/12 pl-5 pr-5 ml-auto mr-auto">
                     <h1>Members</h1>
                     <div>
-                        <div class="flex">
+                        <div class="flex overflow-hidden">
                             <img src="./images/monkeyAvatar.svg" class="w-12 border-2 rounded-full bg-gray-400">
                             <div class="ml-2 h-fit place-self-center">
                                 <h1>@migexample</h1>
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                        
-                        <div class="flex">
+                        <div class="flex overflow-hidden">
                             <img src="./images/lion.jpg" class="w-12 border-2 rounded-full bg-gray-400">
                             <div class="ml-2 h-fit place-self-center">
                                 <h1>@AsliFromTheCountry</h1>
@@ -191,7 +191,7 @@
                             </div>
                         </div>
 
-                        <div class="flex">
+                        <div class="flex overflow-hidden">
                             <img src="./images/dolphin.jpg" class="w-12 border-2 rounded-full bg-gray-400">
                             <div class="ml-2 h-fit place-self-center">
                                 <h1>@willfree</h1>
